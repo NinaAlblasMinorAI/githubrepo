@@ -10,6 +10,22 @@ h5 {
     color: deeppink;
 }
 
+.col-4, .col-8 {
+    text-align: center;
+}
+
+#favourite_hobby {
+    font-weight: bold;
+    color: blueviolet;
+    width: "100";
+    background-color: white;
+    text-align: left;
+}
+
+#favourites_intro {
+    text-align: center;
+}
+
 h5 > a {
     color: white;
 }
@@ -21,10 +37,11 @@ h5 > a:hover {
 table {
     border: 1px solid black;
     border-collapse: collapse;
+    margin: 20px;
 }
 
 td, th {
     border: 1px solid black;
-    padding: 2px;
+    padding: 10px;
 }
 
