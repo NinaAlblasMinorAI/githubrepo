@@ -1,0 +1,29 @@
+h1 {
+    color: whitesmoke;
+    background-color: deeppink;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+    color: pink;
+}
+
+h5 > a {
+    color: deeppink;
+}
+
+h5 > a:hover {
+    color: pink;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 2px;
+}
+
