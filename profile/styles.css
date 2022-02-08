@@ -1,20 +1,21 @@
 h1 {
-    color: whitesmoke;
+    color: white;
     background-color: deeppink;
     text-align: center;
 }
 
 h5 {
     text-align: center;
-    color: pink;
-}
-
-h5 > a {
+    background-color: pink;
     color: deeppink;
 }
 
+h5 > a {
+    color: white;
+}
+
 h5 > a:hover {
-    color: pink;
+    color: deeppink;
 }
 
 table {
