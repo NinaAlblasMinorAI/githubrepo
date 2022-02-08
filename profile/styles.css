@@ -14,17 +14,14 @@ h5 {
     text-align: center;
 }
 
-#favourite_hobby {
-    font-weight: bold;
-    color: blueviolet;
-    width: "100";
-    background-color: white;
-    text-align: left;
+#hobby-container {
+    margin: 40px
 }
 
 #favourites_intro {
     text-align: center;
 }
+
 
 h5 > a {
     color: white;
