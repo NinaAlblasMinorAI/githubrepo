@@ -22,11 +22,10 @@ h5 {
   text-align: center;
 }
 
-h5 > a {
+h5 a {
   color: white;
 }
-
-h5 > a:hover {
+h5 a:hover {
   color: deeppink;
 }
 
@@ -39,6 +38,25 @@ table {
 td, th {
   border: 1px solid black;
   padding: 10px;
+}
+
+.uva, .wolfert, .klipper {
+  color: deeppink;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 40px;
+  font-weight: bold;
+}
+
+.klipper {
+  background-color: antiquewhite;
+}
+
+.wolfert {
+  background-color: yellowgreen;
+}
+
+.uva {
+  background-color: yellow;
 }
 
 /*# sourceMappingURL=styles.css.map */
