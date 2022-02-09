@@ -1,17 +1,19 @@
+$text-alignment:center;
+
 h1 {
     color: white;
     background-color: deeppink;
-    text-align: center;
+    text-align: $text-alignment;
 }
 
 h5 {
-    text-align: center;
+    text-align: $text-alignment;
     background-color: pink;
     color: deeppink;
 }
 
 .col-4, .col-8 {
-    text-align: center;
+    text-align: $text-alignment;
 }
 
 #hobby-container {
@@ -19,7 +21,7 @@ h5 {
 }
 
 #favourites_intro {
-    text-align: center;
+    text-align: $text-alignment;
 }
 
 
@@ -41,4 +43,3 @@ td, th {
     border: 1px solid black;
     padding: 10px;
 }
-
