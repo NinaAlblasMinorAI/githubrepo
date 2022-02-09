@@ -1,0 +1,44 @@
+h1 {
+  color: white;
+  background-color: deeppink;
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+  background-color: pink;
+  color: deeppink;
+}
+
+.col-4, .col-8 {
+  text-align: center;
+}
+
+#hobby-container {
+  margin: 40px;
+}
+
+#favourites_intro {
+  text-align: center;
+}
+
+h5 > a {
+  color: white;
+}
+
+h5 > a:hover {
+  color: deeppink;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 20px;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */
